@@ -1,0 +1,457 @@
+/* ==========================================
+   CLÍNICA PSICOLÓGICA ALE & ANDRI
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#F8F3FF;
+    color:#4B2E83;
+    line-height:1.6;
+}
+
+/* ================= HEADER ================= */
+
+header{
+    background:linear-gradient(135deg,#C8A2FF,#B388EB);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+    border-bottom:6px solid #FF9800;
+}
+
+header h1{
+    font-size:45px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+/* ================= PESQUISA ================= */
+
+.pesquisa input{
+
+    width:60%;
+    max-width:500px;
+
+    padding:12px;
+
+    border:2px solid #FF9800;
+
+    border-radius:30px;
+
+    margin-bottom:30px;
+
+    font-size:16px;
+
+}
+
+/* ================= MENU ================= */
+
+nav{
+
+    background:#8E44AD;
+
+    border-radius:30px;
+
+    padding:15px;
+
+}
+
+nav ul{
+
+    list-style:none;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:35px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#FFD180;
+
+}
+
+/* ================= SEÇÕES ================= */
+
+section{
+
+    width:90%;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.12);
+
+}
+
+section h2{
+
+    color:#7B2CBF;
+
+    border-left:8px solid #FF9800;
+
+    padding-left:10px;
+
+    margin-bottom:20px;
+
+}
+
+/* ================= DESTAQUE ================= */
+
+.card-destaque{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:30px;
+
+}
+
+.card-destaque img{
+
+    width:250px;
+
+    border-radius:20px;
+
+}
+
+.card-destaque button{
+
+    margin-top:15px;
+
+}
+
+/* ================= CARDS ================= */
+
+.cards{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:25px;
+
+}
+
+.card{
+
+    width:250px;
+
+    background:#F5ECFF;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    text-align:center;
+
+    border:2px solid #D8B4FE;
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#FF9800;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.18);
+
+}
+
+.card img{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+    margin-bottom:15px;
+
+}
+
+.card h3{
+
+    color:#7B2CBF;
+
+}
+
+.card p{
+
+    margin:10px 0;
+
+}
+
+/* ================= BOTÕES ================= */
+
+button{
+
+    background:#8E44AD;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#FF9800;
+
+}
+
+/* ================= LISTAS ================= */
+
+ul{
+
+    margin-left:25px;
+
+}
+
+ol{
+
+    margin-left:25px;
+
+}
+
+li{
+
+    margin:10px 0;
+
+}
+
+/* ================= TABELA ================= */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+}
+
+thead{
+
+    background:#8E44AD;
+
+    color:white;
+
+}
+
+th{
+
+    padding:15px;
+
+}
+
+td{
+
+    padding:15px;
+
+    text-align:center;
+
+}
+
+table,th,td{
+
+    border:2px solid #D8B4FE;
+
+}
+
+tbody tr:nth-child(even){
+
+    background:#F5ECFF;
+
+}
+
+tbody tr:hover{
+
+    background:#FFE0B2;
+
+}
+
+/* ================= AVISO ================= */
+
+.aviso{
+
+    margin-top:25px;
+
+    background:#FFF3E0;
+
+    border-left:8px solid #FF9800;
+
+    padding:20px;
+
+    border-radius:10px;
+
+}
+
+.aviso h3{
+
+    color:#E65100;
+
+    margin-bottom:10px;
+
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+
+    background:#C8A2FF;
+
+    color:white;
+
+    text-align:center;
+
+    padding:35px;
+
+    margin-top:40px;
+
+    border-top:6px solid #FF9800;
+
+}
+
+footer a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+footer a:hover{
+
+    color:#FFD180;
+
+}
+
+/* ================= BOTÃO TOPO ================= */
+
+.topo{
+
+    display:inline-block;
+
+    background:#FF9800;
+
+    color:white;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    margin-top:20px;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.topo:hover{
+
+    background:#E67E22;
+
+}
+
+/* ================= RESPONSIVO ================= */
+
+@media(max-width:900px){
+
+.card-destaque{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+nav ul{
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+.pesquisa input{
+
+    width:90%;
+
+}
+
+.cards{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.card{
+
+    width:90%;
+
+}
+
+header h1{
+
+    font-size:34px;
+
+}
+
+}
