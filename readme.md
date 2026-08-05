@@ -1,5 +1,9 @@
 # Repositorio SENAI - Codficação Front- End
-**Nome:** Gabriel Monteiro Dias
+
+**Nome do professor:** Gabriel Monteiro Dias
+
+**Nome das integrantes:** Alexa Rembowski e Andrieli Nickhorn
+
 **Módulo:** Códificação Front-End
 - - - 
 **Conteúdo 1:** HTML
