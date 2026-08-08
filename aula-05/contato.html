@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nocturna Tattoo Studio | Contato</title>
+</head>
+<body>
+
+  <!-- INICIO: cabecalho e menu -->
+  <header>
+    <h1>Nocturna Tattoo Studio</h1>
+    <nav aria-label="Menu principal">
+      <ul class="main-menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicos.html">Servicos</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- FIM: cabecalho e menu -->
+
+  <main>
+
+    <h2>Fale conosco</h2>
+
+    <!-- INICIO: formulario de contato -->
+    <section id="formulario-contato" class="contact-form-section">
+      <form action="#" method="post">
+
+        <div class="form-field">
+          <label for="nome">Nome completo</label>
+          <input type="text" id="nome" name="nome" minlength="3" required>
+        </div>
+
+        <div class="form-field">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-field">
+          <label for="telefone">Telefone / WhatsApp</label>
+          <input type="tel" id="telefone" name="telefone">
+        </div>
+
+        <div class="form-field">
+          <label for="estilo">Estilo de interesse</label>
+          <select id="estilo" name="estilo">
+            <option value="fine-line">Fine line</option>
+            <option value="old-school">Old school</option>
+            <option value="realismo">Realismo</option>
+            <option value="cobertura">Cobertura</option>
+          </select>
+        </div>
+
+        <fieldset class="form-field">
+          <legend>Ja tem tatuagem?</legend>
+          <input type="radio" id="ja-tenho-sim" name="ja-tem-tatuagem" value="sim">
+          <label for="ja-tenho-sim">Sim</label>
+          <input type="radio" id="ja-tenho-nao" name="ja-tem-tatuagem" value="nao">
+          <label for="ja-tenho-nao">Nao</label>
+        </fieldset>
+
+        <div class="form-field">
+          <label for="mensagem">Conte sua ideia</label>
+          <textarea id="mensagem" name="mensagem" rows="5" maxlength="500"></textarea>
+        </div>
+
+        <button type="submit">Enviar mensagem</button>
+
+      </form>
+    </section>
+    <!-- FIM: formulario de contato -->
+
+    <!-- INICIO: mapa -->
+    <section id="mapa" class="map-section">
+      <h2>Onde estamos</h2>
+      <iframe
+        src="https://www.google.com/maps?q=Rua+das+Tintas,+123,+Porto+Alegre,+RS&output=embed"
+        width="600" height="400"
+        title="Mapa de localizacao do Nocturna Tattoo Studio"
+        loading="lazy">
+      </iframe>
+    </section>
+    <!-- FIM: mapa -->
+
+    <!-- INICIO: informacoes de contato -->
+    <section id="info-contato" class="contact-info-section">
+      <h2>Informacoes de contato</h2>
+      <address>
+        <p>E-mail: contato@nocturna.com.br</p>
+        <p>Telefone: (51) 99999-0000</p>
+        <p>Horario de atendimento: <time datetime="Tue-Sat 09:00-19:00">terca a sabado, das 9h as 19h</time></p>
+      </address>
+    </section>
+    <!-- FIM: informacoes de contato -->
+
+  </main>
+
+  <!-- INICIO: rodape -->
+  <footer>
+    <address>
+      Feito por Alexa Rembowski e Andrieli Nickhorn - Trabalho Final de HTML
+    </address>
+    <p>
+      Saiba mais sobre cuidados pos-tatuagem no
+      <a href="https://www.tattoodo.com" target="_blank" rel="noopener noreferrer">Tattoodo</a>.
+    </p>
+  </footer>
+  <!-- FIM: rodape -->
+
+</body>
+</html>
