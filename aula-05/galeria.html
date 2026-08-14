@@ -1,95 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nocturna Tattoo Studio | Galeria</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - N. Queiroz Paraíso Equoterapia</title>
 </head>
 <body>
 
-  <!-- INICIO: cabecalho e menu -->
-  <header>
-    <h1>Nocturna Tattoo Studio</h1>
-    <nav aria-label="Menu principal">
-      <ul class="main-menu">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="servicos.html">Servicos</a></li>
-        <li><a href="galeria.html">Galeria</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
-  <!-- FIM: cabecalho e menu -->
+    <!-- INÍCIO: cabeçalho -->
+    <header>
+        <h1>N. Queiroz Paraíso Equoterapia</h1>
 
-  <main>
+        <nav aria-label="Menu principal">
+            <a href="index.html">Início</a> |
+            <a href="servicos.html">Serviços</a> |
+            <a href="galeria.html">Galeria</a> |
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
 
-    <h2>Galeria de trabalhos</h2>
+    <!-- INÍCIO: conteúdo principal -->
+    <main>
 
-    <!-- INICIO: galeria de imagens -->
-    <section id="galeria-fotos" class="photo-gallery">
-      <img src="img/galeria-01.jpg"
-           alt="Tatuagem de mandala geometrica no antebraco"
-           width="300" height="300" loading="lazy">
-      <img src="img/galeria-02.jpg"
-           alt="Tatuagem realista de leao no ombro"
-           width="300" height="300" loading="lazy">
-      <img src="img/galeria-03.jpg"
-           alt="Tatuagem minimalista de constelacao no pulso"
-           width="300" height="300" loading="lazy">
-      <img src="img/galeria-04.jpg"
-           alt="Tatuagem colorida de flores old school na panturrilha"
-           width="300" height="300" loading="lazy">
-    </section>
-    <!-- FIM: galeria de imagens -->
+        <section id="galeria">
+            <h2>Galeria</h2>
 
-    <!-- INICIO: video do estudio -->
-    <section id="video-estudio" class="video-section">
-      <h2>Conheca o estudio</h2>
-      <video controls preload="metadata" width="640" height="360">
-        <source src="img/tour-estudio.mp4" type="video/mp4">
-        Seu navegador nao e compativel com a reproducao deste video.
-        <a href="img/tour-estudio.mp4">Clique aqui para baixar o video</a>.
-      </video>
-    </section>
-    <!-- FIM: video do estudio -->
+            <img
+                src="img/galeria1.jpg"
+                alt="Participante realizando atividade de equoterapia"
+                width="250"
+                height="180"
+                loading="lazy">
 
-    <!-- INICIO: depoimento em audio -->
-    <section id="audio-depoimento" class="audio-section">
-      <h2>Depoimento de cliente</h2>
-      <audio controls>
-        <source src="img/depoimento-cliente.mp3" type="audio/mpeg">
-        Seu navegador nao e compativel com a reproducao deste audio.
-      </audio>
-    </section>
-    <!-- FIM: depoimento em audio -->
+            <img
+                src="img/galeria2.jpg"
+                alt="Cavalo utilizado nas atividades da equoterapia"
+                width="250"
+                height="180"
+                loading="lazy">
 
-    <!-- INICIO: video do YouTube -->
-    <section id="video-youtube" class="youtube-section">
-      <h2>Processo de tatuagem passo a passo</h2>
-      <iframe
-        width="560" height="315"
-        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-        title="Video mostrando o processo de uma sessao de tatuagem"
-        loading="lazy"
-        allowfullscreen>
-      </iframe>
-      <!-- Substituir o link acima pelo video real do estudio -->
-    </section>
-    <!-- FIM: video do YouTube -->
+            <img
+                src="img/galeria3.jpg"
+                alt="Participante interagindo com um cavalo"
+                width="250"
+                height="180"
+                loading="lazy">
 
-  </main>
+            <img
+                src="img/galeria4.jpg"
+                alt="Sessão de equoterapia realizada ao ar livre"
+                width="250"
+                height="180"
+                loading="lazy">
+        </section>
 
-  <!-- INICIO: rodape -->
-  <footer>
-    <address>
-      Feito por Alexa Rembowski e Andrieli Nickhorn - Trabalho Final de HTML
-    </address>
-    <p>
-      Saiba mais sobre cuidados pos-tatuagem no
-      <a href="https://www.tattoodo.com" target="_blank" rel="noopener noreferrer">Tattoodo</a>.
-    </p>
-  </footer>
-  <!-- FIM: rodape -->
+        <!-- INÍCIO: vídeo -->
+        <section id="video">
+            <h2>Vídeo</h2>
+
+            <video
+                controls
+                preload="metadata"
+                width="500">
+
+                <source
+                    src="video.mp4"
+                    type="video/mp4">
+
+                Seu navegador não suporta a reprodução de vídeo.
+            </video>
+        </section>
+
+        <!-- INÍCIO: áudio -->
+        <section id="audio">
+            <h2>Áudio</h2>
+
+            <audio controls>
+                <source
+                    src="audio.mp3"
+                    type="audio/mpeg">
+
+                Seu navegador não suporta a reprodução de áudio.
+            </audio>
+        </section>
+
+        <!-- INÍCIO: YouTube -->
+        <section id="youtube">
+            <h2>Conheça a Equoterapia</h2>
+
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/2fRr8aB7G9s"
+                title="Vídeo sobre equoterapia"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+    </main>
+
+    <!-- INÍCIO: rodapé -->
+    <footer>
+        <p>Alexa Rembowski e Andrieli Nickhorn</p>
+    </footer>
 
 </body>
 </html>
