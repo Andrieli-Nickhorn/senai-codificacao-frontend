@@ -1,0 +1,321 @@
+/* CONFIGURAÇÃO GERAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #a86985;      
+    color: #FFFFFF;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #8d546e;
+}
+
+.logo {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #59759b;
+}
+
+/* BOTÕES */
+.botao {
+    padding: 12px 24px;
+    background-color: #214475;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.botao-secundario {
+    background-color: #a86985;
+    color: #FFFFFF;
+}
+
+.botao:hover,
+.botao-secundario:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 420px;
+    padding: 40px 20px;
+    background-color: #a86985;
+    box-sizing: border-box;
+}
+
+.hero-conteudo {
+    text-align: center;
+    max-width: 700px;
+}
+
+.hero-conteudo h1 {
+    font-size: 42px;
+    margin: 15px 0;
+    color: #FFFFFF;
+}
+
+.hero-conteudo p {
+    line-height: 1.6;
+}
+
+.tag {
+    color: #44628b;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.hero-acoes {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+/* SEÇÕES */
+.secao {
+    padding: 60px 40px;
+    box-sizing: border-box;
+    background-color: #a86985;
+}
+
+.titulo-secao {
+    margin-bottom: 30px;
+}
+
+.titulo-secao h2 {
+    font-size: 32px;
+    margin: 10px 0;
+    color: #FFFFFF;
+}
+
+.titulo-secao p {
+    line-height: 1.6;
+}
+
+/* CARDS DE JOGOS */
+.grade-jogos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card-jogo {
+    flex: 1;
+    min-width: 220px;
+    background-color: #765692;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #698ab8;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.card-jogo:hover {
+    transform: translateY(-3px);
+}
+
+.icone-jogo {
+    font-size: 40px;
+}
+
+.categoria {
+    color: #698ab8;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-jogo h3 {
+    color: #FFFFFF;
+}
+
+.card-jogo p {
+    line-height: 1.6;
+}
+
+.card-jogo a {
+    color: #698ab8;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.card-jogo a:hover {
+    color: #FFFFFF;
+}
+
+/* COMO FUNCIONA */
+.secao-alternativa {
+    background-color: #8d4465;
+}
+
+/* PAI DOS TRÊS .passo */
+.passos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.passo {
+    flex: 1;
+    min-width: 220px;
+    padding: 20px;
+    background-color: #765692;
+    border-radius: 12px;
+    border: 2px solid #3e649b;
+    box-sizing: border-box;
+}
+
+.numero {
+    font-size: 32px;
+    font-weight: bold;
+    color: #668ec5;
+}
+
+.passo h3 {
+    color: #FFFFFF;
+}
+
+.passo p {
+    line-height: 1.6;
+}
+
+/* COMUNIDADE */
+.comunidade {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #a86985;
+}
+
+.comunidade-texto,
+.comunidade-info {
+    flex: 1;
+    min-width: 250px;
+}
+
+.comunidade-texto h2 {
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.comunidade-texto p {
+    line-height: 1.6;
+}
+
+/* PAI DOS TRÊS .info-item */
+.comunidade-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    background-color: #765692;
+    border: 2px solid #668ec5;
+    border-radius: 10px;
+}
+
+.info-item strong {
+    font-size: 28px;
+    color: #668ec5;
+}
+
+/* RODAPÉ */
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px 40px;
+    background-color: #765692;
+}
+
+.rodape p {
+    margin-bottom: 0;
+}
+
+.links-rodape {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.links-rodape a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.links-rodape a:hover {
+    color: rgb(132, 162, 204);
+}
+
+/* RESPONSIVIDADE - DESAFIO OPCIONAL */
+@media (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero-conteudo h1 {
+        font-size: 32px;
+    }
+
+    .grade-jogos {
+        flex-direction: column;
+    }
+
+    .passos {
+        flex-direction: column;
+    }
+
+    .comunidade {
+        flex-direction: column;
+    }
+
+    .rodape {
+        flex-direction: column;
+        text-align: center;
+    }
+}
