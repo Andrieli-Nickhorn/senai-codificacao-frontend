@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+  }
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #0B1020;
+color: #F5F7FF;
+}
+
+.layout {
+min-height: 100vh;
+display: grid;
+grid-template-areas:
+"cabecalho"
+"principal"
+"rodape";
+gap: 20px;
+}
+
+.area-header {
+grid-area: cabecalho;
+background-color: #161D33;
+padding: 20px 40px;
+display: grid;
+grid-template-columns: auto 1fr;
+align-items: center;
+gap: 30px;
+}
+
+.logo {
+font-size: 28px;
+font-weight: bold;
+color: #6C63FF;
+letter-spacing: 2px;
+}
+
+.menu {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: flex-end;
+gap: 25px;
+}
+
+.menu a {
+color: #F5F7FF;
+text-decoration: none;
+transition: 0.3s;
+}
+
+.menu a:hover {
+color: #21D4FD;
+}
+
+.area-principal {
+grid-area: principal;
+width: 90%;
+max-width: 1100px;
+margin: 0 auto;
+}
+
+.hero {
+background-color: #161D33;
+padding: 50px;
+margin-bottom: 30px;
+border-radius: 15px;
+}
+
+.hero h1 {
+margin-top: 0;
+font-size: 40px;
+color: #6C63FF;
+}
+
+.hero p {
+font-size: 18px;
+color: #F5F7FF;
+}
+
+.secao {
+margin-bottom: 40px;
+}
+
+.secao h2 {
+color: #21D4FD;
+margin-bottom: 20px;
+}
+
+.grade-servicos {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 20px;
+}
+
+.card-servico {
+background-color: #161D33;
+padding: 25px;
+border-radius: 12px;
+transition: 0.3s;
+}
+
+.card-servico:hover {
+transform: translateY(-5px);
+}
+
+.icone {
+fill: #F5F7FF;
+transition: 0.3s;
+}
+
+.card-servico:hover .icone {
+fill: #21D4FD;
+transform: scale(1.2);
+}
+
+.card-servico h3 {
+color: #6C63FF;
+}
+
+.card-servico p {
+color: #F5F7FF;
+}
+
+.grade-portfolio {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+gap: 20px;
+}
+
+.item-portfolio {
+aspect-ratio: 1 / 1;
+background-color: #161D33;
+border-radius: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #21D4FD;
+font-weight: bold;
+transition: 0.3s;
+}
+
+.item-portfolio:hover {
+transform: scale(1.03);
+background-color: #6C63FF;
+color: #F5F7FF;
+}
+
+.grade-passos {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+}
+
+.passo {
+background-color: #161D33;
+padding: 25px;
+border-radius: 12px;
+}
+
+.numero-passo {
+display: block;
+font-size: 32px;
+font-weight: bold;
+color: #6C63FF;
+margin-bottom: 10px;
+}
+
+.secao-sobre {
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+gap: 30px;
+background-color: #161D33;
+padding: 30px;
+border-radius: 15px;
+}
+
+.sobre-info {
+display: grid;
+gap: 15px;
+}
+
+.info-item {
+padding: 18px;
+background-color: #0B1020;
+border-radius: 10px;
+color: #21D4FD;
+}
+
+.area-rodape {
+grid-area: rodape;
+background-color: #161D33;
+padding: 25px 40px;
+display: grid;
+grid-template-columns: 1fr auto;
+align-items: center;
+gap: 20px;
+}
+
+.rodape-texto p {
+margin: 0;
+}
+
+.rodape-links {
+display: flex;
+gap: 20px;
+}
+
+.rodape-links a {
+color: #F5F7FF;
+text-decoration: none;
+transition: 0.3s;
+}
+
+.rodape-links a:hover {
+color: #21D4FD;
+}
+
+@media (max-width: 700px) {
+.area-header {
+grid-template-columns: 1fr;
+text-align: center;
+}
+
+.menu {
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.hero {
+padding: 30px;
+}
+
+.hero h1 {
+font-size: 30px;
+}
+
+.grade-passos {
+grid-template-columns: 1fr;
+}
+
+.secao-sobre {
+grid-template-columns: 1fr;
+}
+
+.area-rodape {
+grid-template-columns: 1fr;
+text-align: center;
+}
+
+.rodape-links {
+justify-content: center;
+flex-wrap: wrap;
+}
+}
