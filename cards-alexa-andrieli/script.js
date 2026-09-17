@@ -1,2 +1,8 @@
 const cards = document.querySelectorAll(".card");
-cards.length;
+
+cards.forEach(function (card, indice) {
+  const tituloDoCard = card.querySelector(".card-title");
+  tituloDoCard
+    ? (tituloDoCard.innerHTML = tituloDoCard.textContent + " ✅")
+    : console.log("(sem título)");
+});
